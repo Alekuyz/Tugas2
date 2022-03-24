@@ -22,9 +22,9 @@ namespace Tugas2PABD
                 con = new SqlConnection("data source=NITRO-AN715;Database=ExerciseSatu;User ID=sa;Password=123");
                 con.Open();
 
-                SqlCommand cm = new SqlCommand("INSERT INTO Owner (id_Owner, Nama, No_Telpon, id_Klien) VALUES ('224','Alek','0816253627','301')" +
-                    "INSERT INTO Owner (id_Owner, Nama, No_Telpon, id_Klien) VALUES ('225','Dimas','0834256748','302')" + "INSERT INTO Owner (id_Owner, Nama, No_Telpon, id_Klien) VALUES ('226','Ihsan','0845398746','303')" +
-                    "INSERT INTO Owner (id_Owner, Nama, No_Telpon, id_Klien) VALUES ('227','Paldi','0845362745','304')" + "INSERT INTO Owner (id_Owner, Nama, No_Telpon, id_Klien) VALUES ('228','Akbar','0856748392','305')", con);
+                SqlCommand cm = new SqlCommand("INSERT INTO Owner (id_Owner, Nama, No_Telpon, id_Klien) VALUES ('230','Alek','0816253627','301')" +
+                    "INSERT INTO Owner (id_Owner, Nama, No_Telpon, id_Klien) VALUES ('231','Dimas','0834256748','302')" + "INSERT INTO Owner (id_Owner, Nama, No_Telpon, id_Klien) VALUES ('232','Ihsan','0845398746','303')" +
+                    //"INSERT INTO Owner (id_Owner, Nama, No_Telpon, id_Klien) VALUES ('233','Paldi','0845362745','304')" + "INSERT INTO Owner (id_Owner, Nama, No_Telpon, id_Klien) VALUES ('234','Akbar','0856748392','305')", con);
                 cm.ExecuteNonQuery();
 
                 Console.WriteLine("Sukses menambahkan data");
